@@ -574,7 +574,7 @@ button {
     height: auto;
     background-repeat: no-repeat;
     background-size: 100%;
-    padding-bottom: 375px;
+    padding-bottom: 50%;
     padding-top: 200px;
 }
 
@@ -1019,7 +1019,7 @@ button {
 .copyright_section {
     width: 100%;
     float: left;
-    background-color: #633f1a;
+    background-color: #5d6c58;
     height: auto;
 }
 
