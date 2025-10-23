@@ -197,7 +197,7 @@ img {
 }
 
 .form-control:focus {
-    border-color: #ffffff !important;
+    border-color: #F5F4ED  !important;
     box-shadow: 0 0 0 .2rem rgba(255, 255, 255, .25);
 }
 
@@ -267,14 +267,14 @@ button {
 }*/
 
 .logo {
-    width: 20%;
+    width: 10%;
     display: block;
-    margin: 20px auto 50px auto; /* arriba, derecha, abajo, izquierda */
+    margin: 30px auto 50px auto; /* arriba, derecha, abajo, izquierda */
     text-align: center;
 }
 
 .logo_mobile {
-    width: 10%;
+    width: 30%;
     display: block;
     margin: 0 auto 20px auto;
     text-align: center;
@@ -344,14 +344,14 @@ button {
 }
 
 .menu_main li a {
-    color: #ffffff;
+    color: #F5F4ED ;
     padding: 10px 20px;
     border-radius: 10px;
 }
 
 .menu_main li a:hover {
-    color: #ffffff;
-    background-color: #D1CFC9;
+    color: #F5F4ED ;
+    background-color: #B8986B ;
 }
 
 .mb-lg-0,
@@ -384,7 +384,7 @@ button {
     width: 100%;
     float: left;
     font-size: 80px;
-    color: #ffffff;
+    color: #F5F4ED ;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
@@ -395,7 +395,7 @@ button {
     width: 63%;
     margin: 0 auto;
     font-size: 16px;
-    color: #ffffff;
+    color: #F5F4ED ;
     text-align: center;
 }
 
@@ -410,7 +410,7 @@ button {
     float: left;
     font-size: 16px;
     color: #141414;
-    background-color: #ffffff;
+    background-color: #F5F4ED ;
     text-align: center;
     padding: 10px 0px;
     border-radius: 30px;
@@ -419,8 +419,8 @@ button {
 }
 
 .read_bt a:hover {
-    background-color: #D1CFC9;
-    color: #ffffff;
+    background-color: #B8986B ;
+    color: #F5F4ED ;
 }
 
 
@@ -473,8 +473,8 @@ button {
     width: 100%;
     float: left;
     font-size: 16px;
-    color: #ffffff;
-    background-color: #D1CFC9;
+    color: #F5F4ED ;
+    background-color: #B8986B ;
     text-align: center;
     padding: 10px 0px;
     border-radius: 30px;
@@ -484,13 +484,13 @@ button {
 }
 
 .btn_main a:hover {
-    color: #ffffff;
-    background-color: #5D6C58;
+    color: #F5F4ED ;
+    background-color: #214436 ;
 }
 
 .btn_main.active a {
-    color: #ffffff;
-    background-color: #5D6C58;
+    color: #F5F4ED ;
+    background-color: #214436 ;
 }
 
 
@@ -542,8 +542,8 @@ button {
     width: 100%;
     float: left;
     font-size: 16px;
-    color: #ffffff;
-    background-color: #5D6C58;
+    color: #F5F4ED ;
+    background-color: #214436 ;
     text-align: center;
     padding: 10px 0px;
     border-radius: 30px;
@@ -552,8 +552,8 @@ button {
 }
 
 .readmore_bt a:hover {
-    color: #ffffff;
-    background-color: #D1CFC9;
+    color: #F5F4ED ;
+    background-color: #B8986B ;
 }
 
 .about_img {
@@ -582,7 +582,7 @@ button {
     width: 100%;
     float: left;
     font-size: 40px;
-    color: #ffffff;
+    color: #F5F4ED ;
     font-weight: bold;
     padding-top: 150px;
     text-align: center;
@@ -592,7 +592,7 @@ button {
     width: 80%;
     margin: 0 auto;
     font-size: 16px;
-    color: #ffffff;
+    color: #F5F4ED ;
     padding-top: 40px;
     text-align: center;
 }
@@ -618,7 +618,7 @@ button {
     width: 130px;
     height: 130px;
     transform: translate(-50%, -50%);
-    background-color: #ffffff;
+    background-color: #F5F4ED ;
     border-radius: 100%;
     z-index: -1;
     animation: fadeEffect 1.3s infinite ease;
@@ -664,7 +664,7 @@ button {
     width: 100%;
     margin: 0 auto;
     text-align: center;
-    background-color: #ffffff;
+    background-color: #F5F4ED ;
     box-shadow: 0px 1px 16px -6px;
     border-radius: 30px;
     padding: 50px 70px;
@@ -748,12 +748,12 @@ button {
     width: 20px;
     height: 20px;
     border-radius: 100%;
-    background-color: #5D6C58;
+    background-color: #214436 ;
     bottom: -130px;
 }
 
 .carousel-indicators .active {
-    background-color: #D1CFC9;
+    background-color: #B8986B ;
 }
 
 
@@ -795,8 +795,8 @@ button {
     width: 100%;
     float: left;
     font-size: 16px;
-    color: #ffffff;
-    background-color: #5D6C58;
+    color: #F5F4ED ;
+    background-color: #214436 ;
     text-align: center;
     padding: 10px 0px;
     border-radius: 30px;
@@ -806,8 +806,8 @@ button {
 }
 
 .read_bt_1 a:hover {
-    background-color: #D1CFC9;
-    color: #ffffff;
+    background-color: #B8986B ;
+    color: #F5F4ED ;
 }
 
 .newsletter_box {
@@ -837,8 +837,8 @@ button {
     width: 100%;
     float: left;
     font-size: 16px;
-    color: #ffffff;
-    background-color: #D1CFC9;
+    color: #F5F4ED ;
+    background-color: #B8986B ;
     text-align: center;
     padding: 10px 0px;
     border-radius: 30px;
@@ -846,8 +846,8 @@ button {
 }
 
 .getquote_bt a:hover {
-    background-color: #5D6C58;
-    color: #ffffff;
+    background-color: #214436 ;
+    color: #F5F4ED ;
 }
 
 
@@ -882,7 +882,7 @@ button {
     margin-bottom: 20px;
     padding: 10px 15px;
     border: 0px;
-    border: 1px solid #D1CFC9 !important;
+    border: 1px solid #B8986B  !important;
 }
 .massage-bt {
     width: 100%;
@@ -892,7 +892,7 @@ button {
     margin-bottom: 20px;
     padding: 10px 15px;
     border: 0px;
-    border: 1px solid #D1CFC9 !important;
+    border: 1px solid #B8986B  !important;
 }
 .send_btn {
     width: 170px;
@@ -904,14 +904,14 @@ button {
     float: right;
     text-align: center;
     font-size: 20px;
-    color: #ffffff;
+    color: #F5F4ED ;
     border-radius: 30px;
-    background-color: #5D6C58;
+    background-color: #214436 ;
     padding: 7px;
 }
 .send_btn a:hover {
-    color: #ffffff;
-    background-color: #D1CFC9;
+    color: #F5F4ED ;
+    background-color: #B8986B ;
 }
 /* contact section end */
 
@@ -933,7 +933,7 @@ button {
 .input_btn_main {
     width: 50%;
     display: flex;
-    background-color: #ffffff;
+    background-color: #F5F4ED ;
     border-radius: 40px;
     padding: 8px 0px;
     margin: 0 auto;
@@ -944,7 +944,7 @@ button {
     float: left;
     font-size: 18px;
     color: #2b2c2c;
-    background-color: #ffffff;
+    background-color: #F5F4ED ;
     height: auto;
     padding: 5px 20px;
     border-radius: 20px;
@@ -959,7 +959,7 @@ button {
     width: 170px;
     float: left;
     font-size: 18px;
-    color: #D1CFC9;
+    color: #B8986B ;
     background-color: transparent;
     padding: 5px 0px;
     text-align: center;
@@ -1001,12 +1001,12 @@ button {
     width: 100%;
     float: left;
     font-size: 16px;
-    color: #ffffff;
+    color: #F5F4ED ;
     padding-top: 10px
 }
 
 .call_text a {
-    color: #ffffff;
+    color: #F5F4ED ;
 }
 
 .call_text a:hover {
@@ -1019,21 +1019,21 @@ button {
 .copyright_section {
     width: 100%;
     float: left;
-    background-color: #5d6c58;
+    background-color: #214436 ;
     height: auto;
 }
 
 .copyright_text {
     width: 100%;
     float: left;
-    color: #ffffff;
+    color: #F5F4ED ;
     text-align: center;
     font-size: 16px;
     margin-left: 0px;
 }
 
 .copyright_text a {
-    color: #ffffff;
+    color: #F5F4ED ;
 }
 
 .copyright_text a:hover {
