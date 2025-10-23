@@ -263,12 +263,100 @@ El nombre "Inner Glow" (Brillo Interior) comunica que la experiencia en el saló
    <!-- choose section start -->
    <div class="choose_section layout_padding" id="PQRs">
       <div class="container">
-         <h1 class="choose_taital">PQRs</h1>
-         <p class="choose_text">There are many variations of passages of Lorem Ipsum available, but the majority have
-            suffered alteration in some form, by injected humour, or randomised words which don't look even slightly
-            believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything
-            embarrassing hidden in the middle of text. All </p>
-         <div class="read_bt_1"><a href="#">Escribenos</a></div>
+         <h1 class="choose_taital">Reglamento de Acceso:</h1>
+         <section class="acordeones-container">
+
+  <!-- Acordeón 1 -->
+  <div class="acordeon">
+    <button class="acordeon-header">1. Unificación del Cuerpo (Salud y Seguridad)</button>
+    <div class="acordeon-content">
+      <p><strong>Estas reglas son críticas dada la temperatura constante de 40°C y el uso de terapia infrarroja.</strong></p>
+      <p><strong>1. Evaluación Obligatoria:</strong> La participación en Inner Glow requiere completar el Cuestionario de Acceso Sintergia antes de la primera sesión. Por seguridad, Sintergia se reserva el derecho de pedir una autorización médica para ciertos casos.</p>
+      <p><strong>2. Exclusiones Médicas:</strong> Por favor, absténgase de usar Inner Glow si está embarazada, tiene fiebre o una infección activa, o sufre de presión arterial inestable, o afecciones cardíacas graves. Consulte a su médico si toma medicamentos que afecten la termorregulación.</p>
+      <p><strong>3. Cero Alcohol:</strong> Está estrictamente prohibido el consumo de alcohol, estupefacientes o drogas recreativas dentro de las 8 horas previas a su sesión. El calor potencia sus efectos y anula los beneficios de la desintoxicación.</p>
+      <p><strong>4. Hidratación Esencial:</strong> Es obligatorio consumir el Néctar de Activación (bebida de bienvenida) y continuar hidratándose durante la sesión. El agua es clave para su Bienestar Exponencial.</p>
+    </div>
+  </div>
+
+  <!-- Acordeón 2 -->
+  <div class="acordeon">
+    <button class="acordeon-header">2. Unificación de la Mente (Respeto y Consciencia)</button>
+    <div class="acordeon-content">
+      <p><strong>Estas reglas protegen la experiencia inmersiva y de lujo de todos los huéspedes.</strong></p>
+      <p><strong>5. Santuario de Silencio:</strong> Inner Glow es un espacio de introspección profunda. Solicitamos que mantenga el silencio o utilice los auriculares proporcionados. El uso de teléfonos móviles no está permitido en la cabina para proteger el proceso de Unificación Mental.</p>
+      <p><strong>6. Puntualidad:</strong> Para honrar su tiempo y el de otros huéspedes, solicitamos estricta puntualidad. Las sesiones inician y terminan a la hora programada para mantener la coherencia del flujo de Sintergia.</p>
+      <p><strong>7. Vestimenta Adecuada:</strong> Por higiene y confort, es obligatorio utilizar la ropa de baño o el Ritual Wear proporcionado por Sintergia durante la sesión.</p>
+    </div>
+  </div>
+
+  <!-- Acordeón 3 -->
+  <div class="acordeon">
+    <button class="acordeon-header">3. Trascendencia y Respeto (La Promesa de Sintergia)</button>
+    <div class="acordeon-content">
+      <p><strong>8. Intención Clara:</strong> Le invitamos a definir su intención (Liberación, Claridad, o Presencia) en el Cuestionario. Permita que esta intención guíe su experiencia de Inner Glow para una transformación profunda.</p>
+      <p><strong>9. Post-Sesión:</strong> Permita que su cuerpo y mente se reajusten lentamente. Le proporcionaremos un área de transición y le recomendamos una rehidratación y reposo posterior para integrar el Bienestar Exponencial.</p>
+    </div>
+  </div>
+</section>
+
+<style>
+  .acordeones-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 2rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .acordeon {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #d3b29d; /* Ajustable tono terracota */
+  }
+
+  .acordeon-header {
+    width: 100%;
+    text-align: left;
+    padding: 1rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+
+  .acordeon-header:hover {
+    color: #c07a58; /* tono cálido para hover */
+  }
+
+  .acordeon-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+    padding: 0 1rem;
+  }
+
+  .acordeon-content p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+  }
+
+  .acordeon.active .acordeon-content {
+    max-height: 600px;
+    padding: 1rem;
+  }
+</style>
+
+<script>
+  const acordeones = document.querySelectorAll('.acordeon');
+
+  acordeones.forEach(acordeon => {
+    acordeon.querySelector('.acordeon-header').addEventListener('click', () => {
+      acordeon.classList.toggle('active');
+    });
+  });
+</script>
+
+         <div class="read_bt_1"><a href="https://wa.me/+573052876006">Escribenos</a></div>
          <!-- <div class="newsletter_box">
             <h1 class="let_text">Let Start Talk with Us</h1>
             <div class="getquote_bt"><a href="#">Get A Quote</a></div>
@@ -285,9 +373,9 @@ El nombre "Inner Glow" (Brillo Interior) comunica que la experiencia en el saló
          </div>
          <div class="location_main">
             <div class="call_text"><img src="images/call-icon.png"></div>
-            <div class="call_text"><a href="#">Call +57 1234567890</a></div>
+            <div class="call_text"><a href="#">Call +57 305 2876006</a></div>
             <div class="call_text"><img src="images/mail-icon.png"></div>
-            <div class="call_text"><a href="#">demo@natymarin.com</a></div>
+            <div class="call_text"><a href="#">innerglow@natymarin.com</a></div>
          </div>
          <div class="social_icon">
             <ul>
