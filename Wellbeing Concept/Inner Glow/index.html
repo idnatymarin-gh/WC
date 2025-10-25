@@ -131,10 +131,121 @@
             <div class="col-md-6">
                <div class="about_taital_main" id="about_taital_main">
                   <h1 class="about_taital">El espacio</h1>
-                  <p class="about_text">En el contexto de nuestro proyecto "Inner Glow", el significado es mucho más profundo: se refiere a la parte de una persona que no es visible. Habla de la mente, las emociones, la energía y la salud que vienen desde adentro.
-El nombre "Inner Glow" (Brillo Interior) comunica que la experiencia en el salón genera una transformación y un resplandor que no es solo físico, sino que nace de un bienestar profundo y completo. </p>
+                  <p class="about_text">Inner Glow no es una clase de ejercicio, es una terapia de transformación integral. Nuestro método fusiona ciencia, consciencia y experiencia sensorial para activar un estado de renovación profunda desde el interior.</p>
                   <!-- <div class="readmore_bt"><a href="#">Read More</a></div> -->
                </div>
+
+               <!-- Accordion compacto para Método Inner Glow -->
+<section class="ig-method-accordion" aria-label="Método Inner Glow">
+  <h3 class="ig-section-title">El Método Inner Glow</h3>
+
+  <details class="ig-detail">
+    <summary class="ig-summary">A. Terapia de Calor Infrarrojo — <span class="ig-sub">El Motor Celular de la Transformación</span></summary>
+    <div class="ig-content">
+      <p>Utilizamos tecnología de Infrarrojo de Onda Larga (Far Infrared), el mismo calor utilizado en incubadoras médicas. Este calor penetra hasta 4 cm en el cuerpo, elevando la temperatura interna, favoreciendo la desintoxicación celular, reduciendo inflamación y acelerando la recuperación muscular. El resultado: menos dolor, piel renovada y mayor producción natural de colágeno.</p>
+    </div>
+  </details>
+
+  <details class="ig-detail">
+    <summary class="ig-summary">B. Movimiento Consciente y Neurociencia — <span class="ig-sub">Conexión Cuerpo-Mente con Fundamento Científico</span></summary>
+    <div class="ig-content">
+      <p>Cada secuencia está diseñada por la fisioterapeuta <strong>Natalia Marín</strong>, experta en neurociencia del movimiento con 19 años de experiencia. Nos alejamos del esfuerzo extremo para enfocarnos en la conexión mente-cuerpo dentro de un entorno terapéutico, optimizando flexibilidad, equilibrio y postura en sincronía con la respiración.</p>
+    </div>
+  </details>
+
+  <details class="ig-detail">
+    <summary class="ig-summary">C. El Santuario de la Unificación — <span class="ig-sub">Un espacio para trascender</span></summary>
+    <div class="ig-content">
+      <p>El salón está configurado como un templo sensorial: cromoterapia, acústica envolvente y paisaje natural se combinan para inducir calma profunda. El objetivo es activar un estado neurofisiológico de coherencia, equilibrando el sistema nervioso y conduciendo a un nivel superior de claridad, calma y plenitud.</p>
+    </div>
+  </details>
+</section>
+
+<style>
+/* Estilos compactos y elegantes para los desplegables */
+.ig-method-accordion {
+  max-width: 900px;
+  margin: 2.2rem auto;
+  padding: 0 1rem;
+  color: #111;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+.ig-section-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+  color: #1a1a1a;
+  text-transform: none;
+  font-weight: 700;
+}
+
+/* detalle */
+ig-detail, .ig-detail {
+  margin-bottom: 0.5rem;
+  border-radius: 12px;
+  overflow: hidden;
+  background: linear-gradient(180deg, rgba(245,241,238,0.6), rgba(245,241,238,0.4));
+  border: 1px solid rgba(196,160,139,0.18);
+}
+
+/* summary */
+.ig-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.95rem 1rem;
+  list-style: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #2a2a2a;
+  background: transparent;
+  transition: background .22s ease, color .22s ease;
+}
+
+/* small subtitle in summary */
+.ig-sub {
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: #6b4e3a; /* tono terracota suave */
+}
+
+/* content */
+.ig-content {
+  padding: 0.9rem 1rem 1.1rem 1rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #333;
+  border-top: 1px solid rgba(196,160,139,0.08);
+}
+
+/* Indicador de flecha usando pseudo-elemento */
+.ig-summary::after {
+  content: "▾";
+  font-size: 0.9rem;
+  color: #8a6b57;
+  margin-left: 0.75rem;
+  transition: transform .25s ease;
+}
+
+/* Estado abierto */
+.ig-detail[open] .ig-summary {
+  background: rgba(196,160,139,0.04);
+}
+
+.ig-detail[open] .ig-summary::after {
+  transform: rotate(-180deg);
+}
+
+/* Ajustes responsive */
+@media (max-width: 720px) {
+  .ig-method-accordion { padding: 0 0.6rem; }
+  .ig-section-title { font-size: 1.1rem; }
+  .ig-summary { padding: 0.85rem; font-size: 0.975rem; }
+  .ig-sub { display:block; color:#7a5742; margin-top:4px; font-size:0.86rem; }
+}
+</style>
+
             </div>
             <div class="col-md-6 padding_right_0">
                <div><img src="images/about-img.png" class="about_img"></div>
