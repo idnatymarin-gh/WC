@@ -161,13 +161,23 @@
 
 <style>
 /* Estilos compactos y elegantes para los desplegables */
+
 .ig-method-accordion {
-  max-width: 900px;
-  margin: 2.2rem auto;
-  padding: 0 1rem;
+  max-width: 95%;     /* Puedes cambiar a 90% o 85% si lo quieres más centrado */
+  margin: 2.8rem auto 0 auto;  /* Más espacio arriba y centrado */
+  padding: 0 2rem;    /* Separamos más de la izquierda */
   color: #111;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial;
 }
+
+   @media (max-width: 720px) {
+  .ig-method-accordion { 
+    max-width: 100%;
+    padding: 0 1rem; 
+    margin-top: 2rem;
+  }
+}
+
 
 .ig-section-title {
   font-size: 1.25rem;
