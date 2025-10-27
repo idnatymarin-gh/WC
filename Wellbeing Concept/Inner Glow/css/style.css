@@ -249,7 +249,7 @@ button {
     background-image: url(../images/banner-bg.png);
     height: auto;
     background-size: 110%;
-    padding: 0px 0px 20px 0px;
+    padding: 0px 0px 0px 0px;
 
 }
 
@@ -340,7 +340,7 @@ button {
     float: left;
     padding-left: 10px;
     padding-right: 10px;
-    font-size: 15px;
+    font-size: 12px;
     text-transform: uppercase;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -370,7 +370,7 @@ button {
     width: 100%;
     background-image: url(../images/header-bg.png);
     background-size: 100%;
-    padding: 10px 0px 0px 0px;
+    padding: 0px 0px 50px 0px;
 }
 
 
