@@ -3,13 +3,13 @@
 
 /*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
 
-/*@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 @font-face {
     font-family: "Righteous";
     src: url("../fonts/BalooChettan-Regular.ttf");
     src: url("../fonts/BalooChettan-Regular.ttf");
-}*/
+}
 
 
 /*****---------------------------------------- 1) font-family: 'Rajdhani', sans-serif;
@@ -42,23 +42,26 @@ html {
     scroll-behavior: smooth;
 }
 
-/*body {
-    color: #666666;
-    font-size: 14px;
-    line-height: 1.80857;
-    font-weight: normal;
-    overflow-x: hidden;
-    font-family: 'Poppins', sans-serif;
-}*/
-
 body {
     color: #666666;
     font-size: 14px;
     line-height: 1.80857;
     font-weight: normal;
     overflow-x: hidden;
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    /*font-family: 'Righteous', Regular;*/
+
 }
+
+/*body {
+    color: #666666;
+    font-size: 14px;
+    line-height: 1.80857;
+    font-weight: normal;
+    overflow-x: hidden;
+    font-family: 'Source Code Pro', monospace;
+}*/
 
 a {
     color: #1A1A1A;
@@ -89,7 +92,9 @@ h6 {
 }
 
 h1 {
-    font-size: 24px
+    font-size: 24px;
+    /*font-family: 'Righteous', Regular;*/
+    font-family: 'Poppins', sans-serif;
 }
 
 h2 {
@@ -378,6 +383,7 @@ button {
     width: 100%;
     float: left;
     padding-bottom: 305px;
+    padding-top: 30px;
 }
 
 .banner_taital {
