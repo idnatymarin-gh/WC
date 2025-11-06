@@ -3,10 +3,13 @@
 
 /*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
 
-@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
-@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+/*@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');*/
+/*@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');*/
+/*@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @font-face {
-    font-family: "Righteous";
+    font-family: "Roboto";
     src: url("../fonts/BalooChettan-Regular.ttf");
     src: url("../fonts/BalooChettan-Regular.ttf");
 }
@@ -48,7 +51,7 @@ body {
     line-height: 1.80857;
     font-weight: normal;
     overflow-x: hidden;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-align: justify;
     /*font-family: 'Righteous', Regular;*/
 
@@ -94,7 +97,7 @@ h6 {
 h1 {
     font-size: 24px;
     /*font-family: 'Righteous', Regular;*/
-    font-family: 'Poppins', sans-serif;
+    /*font-family: 'Francois One', sans-serif;*/
 }
 
 h2 {
@@ -394,7 +397,7 @@ button {
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
-    font-family: 'Righteous', Regular;
+    font-family: 'Roboto', Regular;
 }
 
 .banner_text {
@@ -508,12 +511,11 @@ button {
 .about_section {
     width: 100%;
     float: left;
-    padding-bottom: 90px;
+    padding-bottom: 50px;
 }
 
 .about_taital_main {
     width: 100%;
-    padding-left: 100px;
     padding-top: 70px;
 }
 
@@ -523,19 +525,21 @@ button {
 
 .about_taital {
     width: 100%;
-    float: left;
-    font-size: 40px;
+    float: center;
+    font-size: 60px;
     color: #1A1A1A;
-    font-weight: bold;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
 }
 
 .about_text {
     width: 100%;
     float: left;
-    font-size: 16px;
+    font-size: 24px;
     color: #1A1A1A;
     margin: 0px;
-    padding-top: 40px;
+    padding-top: 10px;
 }
 
 .readmore_bt {
@@ -564,7 +568,10 @@ button {
 
 .about_img {
     width: 100%;
+    height: auto;
     float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 
